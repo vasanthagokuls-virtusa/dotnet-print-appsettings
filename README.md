@@ -9,3 +9,5 @@ visit localhost:8080 and you will see a page where three things are printed<br>
 current time:<br>
 environment: this is fetched from appsettings.json<br>
 connection string: this is fetched from appsettings.json<br>
+
+![Output Screenshot](/output-ss.png)
