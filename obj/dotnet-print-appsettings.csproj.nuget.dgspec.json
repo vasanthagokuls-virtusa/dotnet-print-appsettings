@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/vasanth/Documents/Virtusa/demo-applications/dotnet-print-appsettings/dotnet-print-appsettings.csproj": {}
+    "/home/vasanth/Documents/Github/dotnet-print-appsettings/dotnet-print-appsettings.csproj": {}
   },
   "projects": {
-    "/home/vasanth/Documents/Virtusa/demo-applications/dotnet-print-appsettings/dotnet-print-appsettings.csproj": {
+    "/home/vasanth/Documents/Github/dotnet-print-appsettings/dotnet-print-appsettings.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/vasanth/Documents/Virtusa/demo-applications/dotnet-print-appsettings/dotnet-print-appsettings.csproj",
+        "projectUniqueName": "/home/vasanth/Documents/Github/dotnet-print-appsettings/dotnet-print-appsettings.csproj",
         "projectName": "dotnet-print-appsettings",
-        "projectPath": "/home/vasanth/Documents/Virtusa/demo-applications/dotnet-print-appsettings/dotnet-print-appsettings.csproj",
+        "projectPath": "/home/vasanth/Documents/Github/dotnet-print-appsettings/dotnet-print-appsettings.csproj",
         "packagesPath": "/home/vasanth/.nuget/packages/",
-        "outputPath": "/home/vasanth/Documents/Virtusa/demo-applications/dotnet-print-appsettings/obj/",
+        "outputPath": "/home/vasanth/Documents/Github/dotnet-print-appsettings/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/vasanth/.nuget/NuGet/NuGet.Config"
