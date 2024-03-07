@@ -10,4 +10,8 @@ current time:<br>
 environment: this is fetched from appsettings.json<br>
 connection string: this is fetched from appsettings.json<br>
 
-![Output Screenshot](/output-ss.png)
+![Output Screenshot](images/output-ss.png)
+
+
+### The values in the appsettings.json are overriden by the values present in the helm chart
+![Overriden Output Screenshot](images/overriden-values.png)
