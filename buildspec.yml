@@ -5,19 +5,19 @@ phases:
     commands:
       - echo Logging in to Amazon ECR for docker image...
       - aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 730335365953.dkr.ecr.ap-south-1.amazonaws.com
-      - echo Logging in to Amazon ECR for helm package
-      - aws ecr get-login-password --region $AWS_DEFAULT_REGION | helm registry login --username AWS --password-stdin 730335365953.dkr.ecr.ap-south-1.amazonaws.com
+      # - echo Logging in to Amazon ECR for helm package
+      # - aws ecr get-login-password --region $AWS_DEFAULT_REGION | helm registry login --username AWS --password-stdin 730335365953.dkr.ecr.ap-south-1.amazonaws.com
   build:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...          
       - docker build -t dotnet-print-appsettings:latest .
       - docker tag dotnet-print-appsettings:latest 730335365953.dkr.ecr.ap-south-1.amazonaws.com/dotnet-print-appsettings:latest 
-      - echo Packaging Helm Chart
-      - helm package helm-chart
+      # - echo Packaging Helm Chart
+      # - helm package helm-chart
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
       - docker push 730335365953.dkr.ecr.ap-south-1.amazonaws.com/dotnet-print-appsettings:latest
-      - helm push helm-chart-0.1.0.tgz oci://730335365953.dkr.ecr.ap-south-1.amazonaws.com/helm/
+      # - helm push helm-chart-0.1.0.tgz oci://730335365953.dkr.ecr.ap-south-1.amazonaws.com/helm/
